@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::selection{
+  background: var(--hover);
+  color: #f1f1f1;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  min-height: 100vh;
+}

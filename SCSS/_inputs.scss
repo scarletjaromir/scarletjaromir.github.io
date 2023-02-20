@@ -1,0 +1,19 @@
+input[type=text], textarea
+{
+    border: 1px solid var(--border);
+    padding: 10px;
+    border-radius: 7px;
+    font-size: clamp(0.7rem, 0.6082rem + 0.5246vw, 1.1rem);
+    width: 100%;
+    /*evite que la bordure change de couleur à la sélection*/
+    outline: none; 
+}
+input[type=text]:focus, textarea:focus{
+    color: var(--hover);
+    border: 1px solid var(--hover);
+}
+textarea {
+    resize: none;
+}
+
+

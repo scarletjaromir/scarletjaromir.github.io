@@ -1,0 +1,16 @@
+.separator {
+  background: var(--border);
+  width: 90%;
+  height: 1px;
+  margin: 0 auto;
+ 
+}
+.top{
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.082);
+}
+.top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.082) ;
+}
+.bottom  {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.082);
+}

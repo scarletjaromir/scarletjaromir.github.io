@@ -1,0 +1,21 @@
+button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--title);
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  width: 150px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+input[type=submit] {
+  @extend button;
+}
+button:hover, input[type=submit]:hover {
+  color: var(--hover);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}

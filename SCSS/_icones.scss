@@ -1,0 +1,18 @@
+.fa-brands, .fa-regular {
+  border: 1px solid var(--border);
+  padding: 10px;
+  border-radius: 50%;
+  color: var(--social);
+  height: 40px;
+  width: 40px;
+  // @extend %flex-center;
+  transition: 0.3s;
+}
+.fa-brands:hover, .fa-regular:hover {
+  color: var(--hover);
+}
+/**pour changer la taille d'ine icone "i" utiliser font-size et text-align pour centrer**/
+.footer-container i {
+  // display: block;
+  text-align: center;
+}
