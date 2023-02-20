@@ -233,10 +233,6 @@ input[type=submit] {
 }
 
 /***FOOTER****/
-footer {
-  border: 2px solid purple;
-}
-
 .footer-container {
   display: flex;
   justify-content: space-around;
